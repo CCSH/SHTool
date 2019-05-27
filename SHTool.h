@@ -78,7 +78,7 @@ typedef void (^toolBlock)(id obj);
                             font:(UIFont *)font;
 
 #pragma mark 获取行间距
-+ (CGFloat)getLineSpacingWithAtt:(NSMutableAttributedString *)att
++ (CGFloat)getLineSpacingWithAtt:(NSAttributedString *)att
                             line:(CGFloat)line
                             font:(UIFont *)font
                             maxW:(CGFloat)maxW;
